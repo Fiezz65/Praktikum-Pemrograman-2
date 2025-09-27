@@ -17,10 +17,11 @@ public class PRAK105_2410817210027_HafizPerdana {
         double volume = PHI * r * r * t;
 
         System.out.printf(
-            "Volume tabung dengan jari-jari %.1f cm dan tinggi %.1f cm adalah %.3f m3%n",
+            "Volume tabung dengan jari-jari %.1f cm dan tinggi %.1f cm adalah %.3f m3",
             r, t, volume
         );
 
         sc.close();
     }
+
 }
