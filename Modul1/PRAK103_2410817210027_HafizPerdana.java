@@ -8,12 +8,13 @@ public class PRAK103_2410817210027_HafizPerdana {
 
         System.out.print("");
         int n = sc.nextInt();
+
         System.out.print("");
         int start = sc.nextInt();
 
         int count = 0;
-        while (count < n){
-            if (start % 2 != 0){
+        do {
+            if (start % 2 != 0) {
                 System.out.print(start);
                 count++;
 
@@ -22,7 +23,8 @@ public class PRAK103_2410817210027_HafizPerdana {
                 }
             }
             start++;
-        }
+        } while (count < n);
+
         sc.close();
     }
 }
