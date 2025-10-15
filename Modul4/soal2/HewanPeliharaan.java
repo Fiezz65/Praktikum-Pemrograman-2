@@ -1,20 +1,12 @@
 package Modul4.soal2;
 
-import java.util.Scanner;
-
 public class HewanPeliharaan {
     private String name;
     private String breed;
 
-    public HewanPeliharaan() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nama Hewan Peliharaan: ");
-        this.name = sc.nextLine();
-
-        System.out.print("Ras: ");
-        this.breed = sc.nextLine();
-
-        sc.close();
+    public HewanPeliharaan(String name, String breed) {
+        this.name = name;
+        this.breed = breed;
     }
 
     public String getName() {
